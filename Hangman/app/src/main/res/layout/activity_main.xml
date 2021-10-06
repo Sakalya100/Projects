@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/attemptsNumberTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/brown"
+        android:padding="@dimen/dimen10dp"
+        tools:text="Attempts Number : 5" />
+
+    <TextView
+        android:id="@+id/hangmanWordTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/dimen25dp"
+        android:textSize="@dimen/dimen35sp"
+        android:textColor="@color/orange"
+        tools:text="*******" />
+
+    <GridView
+        android:id="@+id/charsGridView"
+        android:numColumns="8"
+        android:background="@color/brown"
+        android:layout_margin="@dimen/dimen5dp"
+        android:padding="@dimen/dimen5dp"
+        android:horizontalSpacing="@dimen/dimen10dp"
+        android:verticalSpacing="@dimen/dimen10dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen175dp"/>
+</LinearLayout>
