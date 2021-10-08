@@ -19,8 +19,8 @@ class Login : AppCompatActivity() {
     fun onClickLogin(view: View) {
         Sawo(
             this,
-            "", // your api key,
-            "" // your secret key
+            "5ee1eb34-de3b-4d91-9259-59da86e75653", // your api key,
+            "616018285e9b584a31c7e783GJ2AJI7qiwp47vRAeGbpIeP8" // your secret key
         ).login(
             "email", // can be one of 'email' or 'phone_number_sms'
             CallbackActivity::class.java.name // Callback class name
