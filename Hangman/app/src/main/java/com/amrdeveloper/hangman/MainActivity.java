@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
         binding.loginBtn.setOnClickListener {
             Sawo(
                     this,
-                    "26757d07-4307-413d-8d0d-7ea230f59bc2", // your api key
-                    "615d664e0b177c8b3d47e6c871tn9uEY9MdgNupjAKlKy37L"  // your api key secret
+                    "7d161977-3fc4-4d2a-afb3-67fbb72dd5b2", // your api key
+                    "61601a9e5e9b584a31c7e787KljsATtUY3CHZPAHrbcNb5F8"  // your api key secret
             ).login(
                     "email", // can be one of 'email' or 'phone_number_sms'
                     WordsLoader::class.java.name // Callback class name
