@@ -15,8 +15,8 @@ class MainActivity : BaseActivity()
         binding.loginBtn.setOnClickListener {
             Sawo(
                     this,
-                    "dd963892-f7aa-4318-8c73-e0142a0f0d48\n", // your api key
-                    "615d6c130b177c8b3d47e6cdQgOVw1SiCZh7K7pwGX6ZB874"  // your api key secret
+                    "9b5b5b0c-a398-4d6a-9366-5d7745207346", // your api key
+                    "6160168f0b177c8b3d47e83bv99vwB0Kwc3JeAWuSHARXaut"  // your api key secret
             ).login(
                     "email", // can be one of 'email' or 'phone_number_sms'
                     App::class.java.name // App class name
