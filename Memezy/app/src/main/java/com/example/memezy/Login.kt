@@ -25,8 +25,8 @@ class Login : AppCompatActivity() {
         fun onClickLogin(view: View) {
             Sawo(
                     this,
-                    "00fa360a-af38-4b1e-9553-a50f820bdd65\n", // your api key,
-                    "615d8dba956fa888e2ab62dfjmw8vOnLB5HHXy1ZatetwPDn" // your secret key
+                    "6708b8d4-267d-4076-80c7-daaba18d6387", // your api key,
+                    "61601bb05e9b584a31c7e789qs6Frmr5bHOojsABF6JgYN5i" // your secret key
             ).login(
                     "phone_number_sms", // can be one of 'email' or 'phone_number_sms'
                     MainActivity::class.java.name
